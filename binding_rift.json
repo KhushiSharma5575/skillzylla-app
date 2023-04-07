@@ -1,0 +1,47 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "bindings" : {
+      "/actions/default" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/headsetonhead"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/head/proximity"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/backui"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/head/input/remote_back"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/interactui"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/head/input/remote_dpad/enter"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "rift",
+   "description" : "",
+   "name" : "Headjack configuration for rift",
+   "options" : {},
+   "simulated_actions" : []
+}

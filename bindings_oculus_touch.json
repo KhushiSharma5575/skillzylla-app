@@ -1,0 +1,128 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "bindings" : {
+      "/actions/default" : {
+         "chords" : [],
+         "poses" : [
+            {
+               "output" : "/actions/default/in/pose",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/default/in/pose",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "haptics" : [],
+         "sources" : [
+            {
+               "path" : "/user/hand/left/input/trigger",
+               "mode" : "button",
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/interactui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/left/input/x",
+               "mode" : "button",
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/interactui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/left/input/y",
+               "mode" : "button",
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/backui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/right/input/trigger",
+               "mode" : "button",
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/interactui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/right/input/x",
+               "mode" : "button",
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/interactui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/right/input/y",
+               "mode" : "button",
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/backui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/right/input/b",
+               "mode" : "button",
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/backui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/right/input/a",
+               "mode" : "button",
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/interactui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/left/input/joystick",
+               "mode" : "joystick",
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/default/in/scrollui"
+                  }
+               }
+            },
+            {
+               "path" : "/user/hand/right/input/joystick",
+               "mode" : "joystick",
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/default/in/scrollui"
+                  }
+               }
+            }
+         ],
+         "skeleton" : [
+            {
+               "output" : "/actions/default/in/skeletonlefthand",
+               "path" : "/user/hand/left/input/skeleton/left"
+            },
+            {
+               "output" : "/actions/default/in/skeletonrighthand",
+               "path" : "/user/hand/right/input/skeleton/right"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "oculus_touch",
+   "description" : "",
+   "name" : "Headjack configuration for Oculus Touch",
+   "options" : {},
+   "simulated_actions" : []
+}
